@@ -7,26 +7,25 @@
 
 ## How to use `virtualenv` and `virtualenvwrapper`
 
-### Create the `virtualenv`
-
+Create the `virtualenv`:
 		$ mkvirtualenv data
 
-### Show the `virtualenv`'s
+Show the `virtualenv`'s:
 
 		$ lsvirtualenv
 		data
 		====
 
-### Start the virtualenv
+Start the `virtualenv`:
 
 		$ workon data
 		> (data)ys-pandas
 
-### Install the dependencies
+Install the dependencies:
 
 		pip install -r requirements.txt
 
-### Stop the virtualenv
+Stop the virtualenv
 
 		$ deactivate
 
